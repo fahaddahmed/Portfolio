@@ -1,0 +1,260 @@
+/* Global Font Import */
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic');
+
+/* Base Element Resets */
+/* These styles remove default margins, padding, and box-sizing to ensure a consistent layout across browsers. The Poppins font is applied globally. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Hiding the default scrollbar for a cleaner look. */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* Text Selection Styling */
+/* Changing the default selection color for better visual feedback when text is selected. */
+*::selection {
+  background-color: #c09181ff;
+  color: #0a0a0a;
+}
+
+/* Interactive Element Resets */
+/* Standardizing styles for buttons, links, and list items to remove default browser styling. */
+button, a {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+/* Global Layout and Color Scheme */
+/* Setting the main background, text color, and selection colors to create a unified theme across the application. */
+body {
+  background-image: url('./assets/Website Background (3).png');
+  color: #6d4b3f;
+  padding: 1rem;
+}
+
+/* Main Container Styles */
+/* Centering and sizing the main app container with a light gray background and subtle border styling. */
+.App {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 5px;
+  padding: 2rem;
+  width: 90%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  overflow-y: auto;
+  background-color: #d1c7c2ff;
+}
+
+/* Section Styling */
+/* These styles apply to the various sections within the app, including the introduction, projects, experience, and footer. */
+
+/* Introduction Section */
+.introduction {
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #d1c7c2ff;
+  gap: 1rem;
+  position: relative;
+}
+
+/* Sub-section for intro header, aligning items and setting the visual hierarchy of text. */
+.intro-header .intro-text * { /* This targets all children */
+  font-family: "Poppins", sans-serif; /* Ensure the Poppins font is used */
+  font-size: clamp(1rem, 8vw, 2rem); /* Responsive font size */
+  color: #93756a; /* Set the color to the specified hex value */
+  font-weight: 800;
+}
+
+.typewriter-container .Typewriter__wrapper {
+  font-family: "Poppins", sans-serif; /* Applies the Poppins font family */
+  font-size: clamp(1rem, 8vw, 2rem); /* Responsive font size, matching the h3 */
+  font-weight: 1000; /* Bold text, matching the h3 */
+  color: #93756a; /* The specified hex color */
+}
+
+.introduction .intro-header {
+  display: flex; /* Aligns items in a row */
+  justify-content: space-between; /* Aligns items to the sides */
+  align-items: center; /* Centers items vertically */
+  gap: 0.5rem; /* Spacing between the text and the image */
+}
+
+.introduction .intro-header .intro-text h3 {
+  /* If you want to keep the text together and aligned left */
+  display: inline-flex;
+  align-items: baseline; /* Aligns the text baseline */
+  color: #6d4b3f;
+}
+
+.introduction .logo-img {
+  width: 100px;
+}
+
+/* Social Links */
+/* Styling for the container and individual social link items, including responsive behavior and interactive effects. */
+.introduction .socials, .socials li {
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  gap: 1rem;
+  scrollbar-width: none;
+}
+
+/* Description styles */
+.introduction .desc {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* Spacing between elements */
+}
+
+/* Description paragraph styles */
+.introduction .desc p {
+  color: #6d4b3f;
+  font-weight: 400;
+  font-size: clamp(0.7rem, 4vw, 0.9rem); /* Responsive font size */
+}
+
+/* Span within description */
+.introduction .desc p span {
+  color: #6d4b3f; /* Original color (green) */
+  font-weight: 650;
+}
+
+.socials li {
+  flex-shrink: 0;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: 0.2s ease-in;
+}
+
+.socials li:hover {
+  background-color: #9e6e5eff;
+  color: #0a0a0a;
+}
+
+.socials li a {
+  padding: 0.4rem 1rem;
+  font-weight: 400;
+  font-size: 0.85rem;
+}
+
+/* Project section styles */
+.projects {
+  margin-top: 1rem; /* Margin on top */
+  border-top: 2px solid rgba(255, 255, 255, 0.05); /* Top border with slight opacity */
+  padding: 1rem; /* Padding around project section */
+  background-color: #d1c7c2ff; /* Light gray background */
+}
+
+.projects .bearwriting {
+  width: 10;
+  flex-shrink: 0; /* Prevent the GIF from shrinking */
+  padding-left: 20px; 
+}
+
+/* Project container styles */
+.project-container {
+  margin-top: 1rem; /* Margin on top */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* Spacing between elements */
+}
+
+/* Project item styles */
+.project {
+  cursor: auto; /* Default cursor */
+  display: flex;
+  align-items: center;
+  gap: 0.8rem; /* Spacing between elements */
+  border-radius: 5px; /* Rounded corners */
+  width: max-content;
+  width: 100%;
+}
+
+/* Project image styles */
+.project img {
+  border-radius: 5px; /* Rounded corners */
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.08); /* Border with slight opacity */
+  object-fit: cover;
+}
+
+/* Project title styles */
+.project .projectTitle {
+  color: #6d4b3f; /* Original color (dark brown) */
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 2px; /* Spacing between elements */
+  font-size: 0.9rem;
+  font-size: clamp(0.7rem, 4vw, 0.9rem); /* Responsive font size */
+}
+
+/* Project description styles */
+.project .projectDesc {
+  font-size: 0.85rem;
+  font-size: clamp(0.7rem, 4vw, 0.9rem); /* Responsive font size */
+  font-weight: 600;
+  color: #93756a; /* Updated hex color for the descriptions */
+}
+
+/* Span within project description */
+.projectDesc span {
+  font-weight: 300;
+  font-size: 0.8rem;
+  color: #6d4b3f;
+}
+
+/* Experience section styles */
+.experience {
+  margin-top: 1rem; /* Margin on top */
+  border-top: 2px solid rgba(255, 255, 255, 0.05); /* Top border with slight opacity */
+  padding: 1rem; /* Padding around experience section */
+  background-color: #6d4b3f; /* Light gray background */
+}
+
+/* Footer Styling */
+/* Standard footer styles, keeping consistency with the overall app's theme. */
+footer {
+  margin-top: 1rem;
+  border-top: 2px solid rgba(255, 255, 255, 0.05);
+  padding: 1rem 1rem 0;
+}
+
+footer a, footer p {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #6d4b3f;
+}
+
+/* Responsive Design */
+/* Ensuring the layout adapts well to different screen sizes for accessibility and usability. */
+@media (max-width: 550px) {
+  .App, .introduction, .projects {
+    padding: 0;
+  }
+
+  .projects {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    gap: 1rem;
+  }
+}

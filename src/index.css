@@ -239,10 +239,17 @@ footer {
   padding: 1rem 1rem 0;
 }
 
-footer a, footer p {
+footer p {
   font-size: 0.8rem;
   font-weight: 300;
   color: #6d4b3f;
+}
+
+footer a {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #6d4b3f;
+  text-decoration: underline;
 }
 
 /* Responsive Design */

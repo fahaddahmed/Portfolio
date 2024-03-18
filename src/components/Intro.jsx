@@ -31,7 +31,7 @@ const Intro = () => {
         </p>
         <p>
           Besides my deep interest in technology, I have a keen fascination with 
-          <span>anthropology and history</span>. These subjects offer me a window 
+          <span> anthropology and history</span>. These subjects offer me a window 
           into the diverse narratives and cultures of our world, enriching my 
           understanding of human societies past and present. This broader 
           perspective helps me appreciate the complexity and interconnectedness of 

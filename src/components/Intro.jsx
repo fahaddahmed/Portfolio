@@ -30,14 +30,6 @@ const Intro = () => {
           and learning with every new project.
         </p>
         <p>
-          Besides my deep interest in technology, I have a keen fascination with 
-          <span> anthropology and history</span>. These subjects offer me a window 
-          into the diverse narratives and cultures of our world, enriching my 
-          understanding of human societies past and present. This broader 
-          perspective helps me appreciate the complexity and interconnectedness of 
-          our world, beyond just the technological aspect.
-        </p>
-        <p>
            In my journey through computer science, I've learned to treasure the 
            process of <span>problem-solving and innovation</span> Coding has become more than 
            just a skill for me; it's a way to bring ideas to life and to explore new 
@@ -46,10 +38,11 @@ const Intro = () => {
            <span> collaboration and shared vision.</span>
         </p>
         <p>
-           As I continue my academic and personal journey, I remain excited about uncovering
-           <span> new</span> knowledge and skills, both within computer science and in my interests outside of it.
-           My goal is to keep expanding my horizons, learning from <span>every experience</span>, and embracing the 
-           challenges that come my way.
+           As I continue pursuing my academic and personal journey, I remain excited about uncovering
+           <span> new</span> knowledge and skills, both within computer science and in my interests 
+           outside of it. My goal is to keep expanding my capabilities, learning from <span>every experience</span>, 
+           and embracing the 
+           challenges that come my way!
         </p>
       </div>
 

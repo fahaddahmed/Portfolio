@@ -35,7 +35,7 @@ npm run dev
 5. Open localhost to view it in the browser.
 
 ## Deployment
-This site is deployed using GitHub Pages. You can visit the live site at https://fahaddahmed.github.io/PersonalPortfolio/.
+This site is deployed using Netlify. You can visit the live site at https://fahad-ahmed.netlify.app/.
 
 ## Acknowledgements
 Icons provided by Remix Icon

@@ -31,7 +31,7 @@ const Intro = () => {
         </p>
         <p>
            In my journey through computer science, I've learned to treasure the 
-           process of <span>problem-solving and innovation</span> Coding has become more than 
+           process of <span>problem-solving and innovation.</span> Coding has become more than 
            just a skill for me; it's a way to bring ideas to life and to explore new 
            ways of thinking and creating. My experiences in clubs and hackathons have 
            not only sharpened my technical abilities but also taught me the value of  

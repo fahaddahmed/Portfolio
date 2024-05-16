@@ -49,7 +49,7 @@ const Intro = () => {
       {/* links */}
       <ul className="socials">
       <li>
-          <a href="https://drive.google.com/file/d/1Z4ekSSkzbdFBX1Ofp3qUEc0LYHgmrPqJ/view?usp=sharing" target="_blank">
+          <a href="https://drive.google.com/file/d/11WwBchmKX2J1Bj8f9eqkH-uTUJCF6xNK/view?usp=sharing" target="_blank">
            <i class="ri-file-pdf-2-line"></i>
             <span> Resume</span>
           </a>

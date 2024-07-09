@@ -3,7 +3,7 @@ export default [
     id: 1,
     companyName: "Teachify",
     desc: "Software Developer Intern",
-    duration: "November 2023 – Present",
+    duration: "January 2024 – May 2024",
   },
   {
     id: 2,

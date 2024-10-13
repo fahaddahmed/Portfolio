@@ -35,7 +35,7 @@ export default [
       desc: "Dynamic C-based application that efficiently manages car inventories using linked lists, featuring a user-friendly command-line interface for adding, editing, and querying car data.",
       imgSrc:
         "https://cdn-icons-png.flaticon.com/512/25/25231.png",
-      link: "https://github.com/fahaddahmed/DynamicAuto-DB",
+      link: "https://github.com/fahaddahmed/Inventory-Management-Software",
     },
   ];
   

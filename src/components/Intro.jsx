@@ -22,7 +22,7 @@ const Intro = () => {
       {/* about yourself */}
       <div className="desc">
         <p>
-          My name is Fahad Ahmed, and I'm a <span>first-year student</span> at the 
+          My name is Fahad Ahmed, and I'm a <span>second-year student</span> at the 
           University of Guelph, where I'm diving into the world of <span>Computer 
           Science</span>. My passion for technology isn't new; it started back in high 
           school. Back then, I began coding, which opened up a new realm of possibilities 

@@ -10,7 +10,7 @@ const Intro = () => {
           <h3>Hi there! I'm</h3>
           <Typewriter
             options={{
-              strings: ["Fahad Ahmed", "First Year @UofG"],
+              strings: ["Fahad Ahmed", "Second Year @UofG"],
               autoStart: true,
               loop: true,
             }}

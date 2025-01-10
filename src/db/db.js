@@ -1,3 +1,4 @@
+import githubLogo from "../assets/github-logo.png";
 export default [
     {
         id: 1,

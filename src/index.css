@@ -41,6 +41,7 @@ li {
 /* Setting the main background, text color, and selection colors to create a unified theme across the application. */
 body {
   background-color: #6d4b3f;
+  color: #6d4b3f;
   padding: 1rem;
 }
 

@@ -40,7 +40,7 @@ li {
 /* Global Layout and Color Scheme */
 /* Setting the main background, text color, and selection colors to create a unified theme across the application. */
 body {
-  color: #6d4b3f;
+  background-color: #6d4b3f;
   padding: 1rem;
 }
 

@@ -22,27 +22,22 @@ const Intro = () => {
       {/* about yourself */}
       <div className="desc">
         <p>
-          My name is Fahad Ahmed, and I'm a <span>second-year student</span> at the 
-          University of Guelph, where I'm diving into the world of <span>Computer 
-          Science</span>. My passion for technology isn't new; it started back in high 
-          school. Back then, I began coding, which opened up a new realm of possibilities 
-          for me. I joined various clubs and took part in hackathons, challenging myself 
-          and learning with every new project.
+        "Hi! I am Fahad Ahmed, a <span>second-year</span> Computer Science student at the University of Guelph. 
+        My interest in technology began in high school when I started coding. Working on my first project 
+        got me interested in programming since then, and I joined different clubs and hackathons to push my 
+        skills further!
         </p>
         <p>
-           In my journey through computer science, I've learned to treasure the 
-           process of <span>problem-solving and innovation.</span> Coding has become more than 
-           just a skill for me; it's a way to bring ideas to life and to explore new 
-           ways of thinking and creating. My experiences in clubs and hackathons have 
-           not only sharpened my technical abilities but also taught me the value of  
-           <span> collaboration and shared vision.</span>
+        I love how computer science allows you to build a broad variety of passions. It's a versatile degree, 
+        which allows me to not only learn about coding but also think of ways I can use my skills to build things 
+        I'm interested in! Coding is not just a skill for me, but a way to bring concepts to life. 
         </p>
         <p>
-           As I continue pursuing my academic and personal journey, I remain excited about uncovering
-           <span> new</span> knowledge and skills, both within computer science and in my interests 
-           outside of it. My goal is to keep expanding my capabilities, learning from <span>every experience</span>, 
-           and embracing the 
-           challenges that come my way!
+        As I continue my studies, I plan to learn even more about computer science and other subjects. I hope 
+        to keep growing from every challenge and explore all the possibilities ahead. 
+        </p>
+        <p>
+        Feel free to click the buttons below to get to know me!
         </p>
       </div>
 

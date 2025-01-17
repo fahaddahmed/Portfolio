@@ -40,7 +40,7 @@ export default [
     {
       id: 6,
       name: "Inventory Management Software",
-      desc: "Dynamic C-based application that efficiently manages car inventories using linked lists, featuring a user-friendly command-line interface for adding, editing, and querying car data.",
+      desc: "Dynamic C-based application that efficiently manages car inventories using linked lists, featuring a user friendly command line interface for adding, editing & querying car data.",
       imgSrc:
         githubLogo,
       link: "https://github.com/fahaddahmed/Inventory-Management-Software",

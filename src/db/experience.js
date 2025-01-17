@@ -14,7 +14,7 @@ export default [
   {
     id: 3,
     companyName: "Milton District High School Programming Club",
-    desc: "Assistant Lead ",
+    desc: "Assistant Lead",
     duration: "October 2022 – April 2023",
   },
 ];
